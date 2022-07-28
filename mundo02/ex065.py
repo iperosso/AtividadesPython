@@ -15,5 +15,5 @@ while resp == 'S':
         menor = num
     media += num
     cont += 1
-    resp = str(input('Quer continuar adicionando números? [S/N] ')).upper().strip()
+    resp = str(input('Quer continuar adicionando números? [S/N] ')).upper().strip()[0]
 print(f'O maior número foi {maior}, o menor número foi {menor} e a média dos números foi {media/cont}')

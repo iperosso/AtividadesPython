@@ -12,7 +12,9 @@ player_palpite = 0
 count = 0
 while player_palpite != palpite_pc:
     player_palpite = int(input('Digite o seu palpite de 1 a 10: '))
-    if count > 0:
-        print(f'Você ja tentou {count}x sem sucesso')
+    if palpite_pc > player_palpite:
+        print('Mais... Tente novamente')
+    elif palpite_pc < player_palpite:
+        print('Menos... Tente novamente')
     count += 1
 print(f'Você acertou!! O meu número era {palpite_pc}, E você precisou de {count} tentativas para acertar')

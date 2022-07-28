@@ -7,9 +7,9 @@
     SEU PROGRAMA DEVERÁ REALIZAR A OPERAÇÃO SOLICITADA EM CADA CASO."""
 
 opç = 0
+num01 = float(input('Digite um valor: '))
+num01 = float(input('Digite outro valor: '))
 while opç != 5:
-    num01 = float(input('Divite um valor: '))
-    num02 = float(input('Digite outro valor: '))
     print('''Que operação desejada
           [1] Para Somar
           [2] Para Multiplicar
@@ -30,6 +30,8 @@ while opç != 5:
             print(f'Entre {num01} e {num02} não tem maior, os dois são iguais')
     elif opç == 4:
         print('Digite então os novos valores por favor')
+        num01 = float(input('Divite um valor: '))
+        num02 = float(input('Digite outro valor: '))
     elif opç == 5:
         print('Encerrando a aplicação, obrigado!')
     else:

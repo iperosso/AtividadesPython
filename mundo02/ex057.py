@@ -4,11 +4,11 @@
 
 vl = 0
 while vl < 1:
-    sexo = str(input('Qual o seu sexo? [M/F]')).upper()
+    sexo = str(input('Qual o seu sexo? [M/F]')).upper().strip()[0]
     if sexo == 'F' or sexo == 'M':
         vl += 1
     else:
-        print('Alternativa incorreta, por favor responda apenas com "F" ou "M"')
+        print('Alternativa incorreta, por favor responda apenas com "F" ou "M"').upper().strip()[0]
     if sexo == 'F':
         sexo = 'uma Benina'
     elif sexo == 'M':
