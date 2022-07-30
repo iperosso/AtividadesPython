@@ -7,9 +7,25 @@ print('=+=' * 7)
 print('Jogo Par ou Ímpar')
 print('=+=' * 7)
 esc_jog = ''
-palp_pc = randint(1, 11)
 palp_player = 0
+player_wins = 0
 while True:
     esc_jog = str(input('Par ou Ímpar? [P/I]')).upper().split()[0]
-    if esc_jog == 'P':
-        
+    palp_player = int(input('Digite um valor'))
+    palp_pc = randint(1, 11)
+    print('-' * 15)
+    print(f'Você escolheu {palp_player} e o computador escolheu {palp_pc}, total {palp_pc + palp_player}')
+    print('-' * 15)
+    if palp_pc + palp_player % 2 == 0 and esc_jog == 'P':
+        player_wins += 1
+        print('Você venceu!')
+        print('Vamos novamente...')
+        print('=' * 15)
+    elif palp_pc + palp_player % 2 != 0 and esc_jog == 'I':
+        player_wins += 1
+        print('Você venceu!')
+        print('Vamos novamente...')
+        print('=' * 15)
+    else:
+        break
+print(f'Fim de jogo, você vendeu {player_wins} vezes')
