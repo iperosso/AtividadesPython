@@ -6,11 +6,11 @@ from random import randint
 print('=+=' * 7)
 print('Jogo Par ou Ímpar')
 print('=+=' * 7)
-esc_jog = ''
-palp_player = 0
 player_wins = 0
 while True:
-    esc_jog = str(input('Par ou Ímpar? [P/I]')).upper().split()[0]
+    esc_jog = ''
+    while esc_jog not in 'pPiI':
+        esc_jog = str(input('Par ou Ímpar? [P/I]')).upper().split()[0]
     palp_player = int(input('Digite um valor'))
     palp_pc = randint(1, 11)
     print('-' * 15)
