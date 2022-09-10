@@ -4,18 +4,20 @@
     > EM POSIÇÃO FOI DIGITADO O PRIMEIRO VALOR = 3
     > QUAIS FORAM OS NÚMEROS PARES"""
 
-num1 = int(input('Digite um valor inteiro: '))
-num2 = int(input('Digite um valor inteiro: '))
-num3 = int(input('Digite um valor inteiro: '))
-num4 = int(input('Digite um valor inteiro: '))
-lista = (num1, num2, num3, num4)
-par = ()
+lista = (int(input('Digite um valor inteiro: ')), int(input('Digite outro valor inteiro: ')), int(input('Digite mais um valor inteiro: ')), int(input('Digite o último valor inteiro: ')))
 print(f'Os números digitados foram {lista}')
 if 9 in lista:
     print(f'O 9 aparece {lista.count(9)} vezes')
+else:
+    print('O número 9 não aparece nenhuma vez.')
 if 3 in lista:
     print(f'O 3 aparece primeiro na posição {lista.index(3) + 1}')
-for n in len(lista):
+else:
+    print('O número 3 não aparece nenhuma vez.')
+cont = 0
+for n in lista:
     if n % 2 == 0:
-        n.append(par)
-print(par)
+        if cont == 0:
+            print('Os números pares são: ', end=' ')
+        print(f'{n}', end=' ')
+        cont += 1
