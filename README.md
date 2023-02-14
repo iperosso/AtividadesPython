@@ -1,5 +1,5 @@
 # AtividadesPython
- Exercicios do Curso de Python 3 da plataforma de cusos 'Curso em Vídeo' do professor Gustavo Guanabara 
+ Exercicios do Curso de Python 3 da plataforma de cusos 'Curso em Vídeo' do professor Gustavo Guanabara @gustavoguanabara
 
 ## Os exercícios estão separados como:
  - Mundo 1 (Exercícios do ex001 ao ex035)
