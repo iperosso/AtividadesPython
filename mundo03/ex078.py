@@ -4,10 +4,17 @@
 lista = list()
 menor = maior = 0
 for i in range(0, 5):
-    lista.append(int(input('Digite um valor: ')))
+    lista.append(int(input('Digite um valor inteiro:  ')))
+    if menor == 0:
+        menor = lista[-1]
+        maior = lista[-1]
+    elif lista[-1] < menor:
+        menor = lista[-1]
+    elif maior < lista[-1]:
+        maior = lista[-1]
+print('-.' * 10)
 print(f'Os valores digitados foram: {lista}')
-if menor == 0:
-    menor = lista[1]
-    maior = lista[1]
-for c, v in enumerate(lista):
-    if v < menor:
+print('-.' * 10)
+print(f'O maior valor digitado foi: {maior}')
+print(f'O menor valor digitado foi: {menor}')
+print('-.' * 10)
