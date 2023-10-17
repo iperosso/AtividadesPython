@@ -1,5 +1,4 @@
-""" FAÇA UM PROGRAMA QUE LEIA UM NÚMERO INTEIRO QUALQUER E MOSTRE NA TELA A SUA TABUADA."""
-
+# FAÇA UM PROGRAMA QUE LEIA UM NÚMERO INTEIRO QUALQUER E MOSTRE NA TELA A SUA TABUADA.
 num = int(input('Digite o número que você deseja saber a tabúada '))
 x2, x3, x4, x5, x6, x7, x8, x9, x10 = num * 2, num * 3, num * 4, num * 5, num * 6, num * 7, num * 8, num * 9, num * 10
 print(17 * 'x')
