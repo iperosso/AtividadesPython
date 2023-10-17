@@ -1,5 +1,4 @@
-""" DESENVOLVA UM PROGRAMA QUE LEIA AS NOTAS DE UM ALUNO E CALCULE A SUA MÉDIA"""
-
+# DESENVOLVA UM PROGRAMA QUE LEIA AS NOTAS DE UM ALUNO E CALCULE A SUA MÉDIA
 n1 = int(input('Digite a primeira nota'))
 n2 = int(input('Digite a segunda nota'))
 n3 = int(input('Digite a terceira nota'))

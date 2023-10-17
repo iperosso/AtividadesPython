@@ -1,5 +1,4 @@
-""" FAÇA UM PROGRAMA QUE LEIA TRES NÚMEROS E MOSTRE QUAL O MAIOR E QUAL É O MENOR"""
-
+# FAÇA UM PROGRAMA QUE LEIA TRES NÚMEROS E MOSTRE QUAL O MAIOR E QUAL É O MENOR
 n1 = int(input('Digite um número: '))
 n2 = int(input('Digite outro número: '))
 n3 = int(input('Digite o terceiro número: '))

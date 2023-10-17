@@ -1,7 +1,5 @@
-""" FAÇA UM PROGRAMA QUE LEIA UM ÂNGULO QUALQUER E MOSTRE NA TELA O VALOR DO SENO, COSSENO E TANGENTE DESSE ANGULO."""
-
+# FAÇA UM PROGRAMA QUE LEIA UM ÂNGULO QUALQUER E MOSTRE NA TELA O VALOR DO SENO, COSSENO E TANGENTE DESSE ANGULO.
 from math import cos, sin, tan, radians
-
 num = float(input('Digite o ângulo'))
 seno = sin(radians(num))
 coss = cos(radians(num))
