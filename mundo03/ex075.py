@@ -1,9 +1,8 @@
-""" DESENVOLVA UM PROGRAMA QUE LEIA QUATRO VALORES PELO TECLADO E GUARDE-OS EM UMA TUPLA
-    E NO FINAL MOSTRE
-    > QUANTAS VEZES APARECEU O VALOR 9
-    > EM POSIÇÃO FOI DIGITADO O PRIMEIRO VALOR = 3
-    > QUAIS FORAM OS NÚMEROS PARES"""
-
+# DESENVOLVA UM PROGRAMA QUE LEIA QUATRO VALORES PELO TECLADO E GUARDE-OS EM UMA TUPLA
+# E NO FINAL MOSTRE
+# > QUANTAS VEZES APARECEU O VALOR 9
+# > EM POSIÇÃO FOI DIGITADO O PRIMEIRO VALOR = 3
+# > QUAIS FORAM OS NÚMEROS PARES
 lista = (int(input('Digite um valor inteiro: ')), int(input('Digite outro valor inteiro: ')), int(input('Digite mais um valor inteiro: ')), int(input('Digite o último valor inteiro: ')))
 print(f'Os números digitados foram {lista}')
 if 9 in lista:

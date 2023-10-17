@@ -1,4 +1,4 @@
-""" FAÇA UM PROGRAMA QUE LEIA UM NÚMERO QUALQUER E MOSTRE O SEU FATORIAL"""
+# FAÇA UM PROGRAMA QUE LEIA UM NÚMERO QUALQUER E MOSTRE O SEU FATORIAL
 
 #from math import factorial
 #num = int(input('Digite um número para calcular o seu fatorial: '))

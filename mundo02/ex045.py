@@ -1,4 +1,4 @@
-""" CRIE UM PROGRAMA QUE FAÇA O COMPUTADOR JOGAR JOKENPO COM VOCÊ"""
+# CRIE UM PROGRAMA QUE FAÇA O COMPUTADOR JOGAR JOKENPO COM VOCÊ
 from time import sleep
 from random import randint
 print('=+=' * 10)

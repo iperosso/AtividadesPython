@@ -1,6 +1,5 @@
-""" CRIE UM PROGRAMA QUE LEIA UMA FRASE QUALQUER E DIGA SE ELA É UM PALINDROMO, 
-    DESCONSIDERE OS ESPAÇO """
-
+# CRIE UM PROGRAMA QUE LEIA UMA FRASE QUALQUER E DIGA SE ELA É UM PALINDROMO,
+# DESCONSIDERE OS ESPAÇO
 frase = str(input('Digite uma frase para analisar: ')).strip().upper()
 palavras = frase.split()
 junto = ''.join(palavras)

@@ -1,6 +1,5 @@
-""" DESENVOLVA UM PROGRAMA QUE LEIA O PRIMEIRO TERMO E A RAZÃO DE UMA PA, NO FINAL
-    MOSTRE OS 10 PRIMEIROS TERMOS DESSA PROGRESSÃO"""
-
+# DESENVOLVA UM PROGRAMA QUE LEIA O PRIMEIRO TERMO E A RAZÃO DE UMA PA, NO FINAL
+# MOSTRE OS 10 PRIMEIROS TERMOS DESSA PROGRESSÃO
 termo = int(input('A progressão deve iniciar de qual termo?'))
 razao = int(input('Qual a razão dessa progressão?'))
 count = 1
