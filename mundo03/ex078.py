@@ -3,8 +3,8 @@
 lista = list()
 menor = maior = cont = 0
 while True:
-    lista.append(int(input('Digite um valor inteiro: ')))
-    if menor == 0:
+    lista.append(int(input(f'Digite um valor inteiro para a posição {cont}: ')))
+    if cont == 0:
         menor = lista[-1]
         maior = lista[-1]
     elif lista[-1] < menor:
@@ -16,11 +16,9 @@ while True:
         break
 print('-.' * 10)
 print(f'Os valores digitados foram: {lista}')
-print('-.' * 10)
 for c, v in enumerate(lista):
     if maior == v:
         print(f'O maior valor digitado foi {v} na posição {c}')
-for c, v in enumerate(lista):
-    if menor == v:
+    elif menor == v:
         print(f'O menor valor digitado foi {v} na posição {c}')
 print('-.' * 10)
